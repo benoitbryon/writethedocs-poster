@@ -1,0 +1,25 @@
+*********************
+Write The Docs poster
+*********************
+
+This project is about a poster session at EuroPython 2013, Florence, Italy.
+
+Developers have places where they can find information, best practices or
+generally be a member of a community. Documentation writers missed such a
+location. That’s what Write The Docs tries to bring: we hope to slowly build a
+place with high quality information about the art of writing documentation.
+Along with that, we hope to open communication between all the awesome people
+out there writing documentation.
+
+One goal it to help the documentarians meet. Another is to collect stories from
+user experience, then promote best practices and provide tools that implement
+those best practices.
+
+This poster will present a consistent set of tools and practices around Sphinx.
+Some already exist. Some are under development or planned: Python users can
+help! Questions, discussions and contributions will be welcome!
+
+More info:
+
+* Write The Docs conference: http://conf.writethedocs.org/
+* online documentation: http://docs.writethedocs.org/
