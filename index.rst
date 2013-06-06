@@ -2,22 +2,36 @@
 WriteTheDocs - documentation toolkit
 ####################################
 
-This document is a draft for "Write The Docs" poster session at EuroPython
-2013 in Florence, Italy.
+Poster session at `EuroPython 2013 in Florence, Italy
+<https://ep2013.europython.eu/>`_.
 
-Write the Docs is about the art and science of documentation.
+Sources: https://github.com/benoitbryon/writethedocs-poster
 
 -------------------------------------------------------------------------------
 
-*****
-Ideas
-*****
+********
+Abstract
+********
 
-* WriteTheDocs is about community and best practices.
-* Make it become reality with a consistent toolkit (mostly around Sphinx).
-* Why WriteTheDocs? Join!
-* We need (Python) developers to create or improve tools!
-* Interactive Kanban-style poster (post-its + online feedback).
+Developers have places where they can find information, best practices or
+generally be a member of a community. Documentation writers missed such a
+location. That’s what Write The Docs tries to bring: we hope to slowly build a
+place with high quality information about the art of writing documentation.
+Along with that, we hope to open communication between all the awesome people
+out there writing documentation.
+
+One goal it to help the documentarians meet. Another is to collect stories from
+user experience, then promote best practices and provide tools that implement
+those best practices.
+
+This poster will present a consistent set of tools and practices around Sphinx.
+Some already exist. Some are under development or planned: Python users can
+help! Questions, discussions and contributions will be welcome!
+
+More info:
+
+* Write The Docs conference: http://conf.writethedocs.org/
+* online documentation: http://docs.writethedocs.org/
 
 -------------------------------------------------------------------------------
 
@@ -50,11 +64,23 @@ Conference
 **********
 
 First Write The Docs conference took place in Portland, Oregon, on April 2013.
-2 days, 28 speakers, 60+ attendees.
+2 days, 28 speakers, 220 attendees!
 
 Next: Write The Docs in Europe?
 
 http://conf.writethedocs.org
+
+-------------------------------------------------------------------------------
+
+***********
+Let's do it
+***********
+
+Write The Docs is not only about knowledge and meetings.
+It is the perfect place to improve documentation writers toolkit.
+
+This poster is interactive: use the sticky notes to tell your own stories or
+recipes!
 
 -------------------------------------------------------------------------------
 
@@ -69,14 +95,14 @@ From individual user stories to improved collective user experience.
 +=======================+=======================+====================+========+
 | Write documentation   | Use a dedicated tool  | Sphinx             | Done   |
 +-----------------------+-----------------------+--------------------+--------+
-| Share builds, read    | Use online hosting    | readthedocs.org    | Done   |
+| Share builds, read    | Publish builds online | readthedocs.org    | Done   |
 | docs                  |                       |                    |        |
 +-----------------------+-----------------------+--------------------+--------+
 | Isolated writers      | Join a community      | writethedocs.org   | Doing  |
 +-----------------------+-----------------------+--------------------+--------+
 | Users <3 examples     | Test examples         | sphinx.ext.doctest | Done   |
 |                       |                       +--------------------+--------+
-|                       |                       | bash doctests      | Todo   |
+|                       |                       | sh doctests        | Todo   |
 +-----------------------+-----------------------+--------------------+--------+
 | Collaborative doc     | Readability matters,  | rst2rst            | Doing  |
 |                       | adopt a style guide   +--------------------+--------+
@@ -85,12 +111,12 @@ From individual user stories to improved collective user experience.
 | Rst syntax errors     | Test Sphinx builds    | sphinxcontrib.test | Done   |
 | break build content   |                       | build              |        |
 +-----------------------+-----------------------+--------------------+--------+
-| Start new doc         | Use templates         | diecutter with     | Done   |
+| Start new docs        | Use templates         | diecutter with     | Doing  |
 |                       |                       | Sphinx template    |        |
 +-----------------------+-----------------------+--------------------+--------+
 | Browse & search code  | Generate API doc      | sphinx-apidoc      | Done   |
 | API reference         |                       +--------------------+--------+
-|                       |                       | Better templates   | Todo   |
+|                       |                       | Templates          | Todo   |
 +-----------------------+-----------------------+--------------------+--------+
 | Doc is incomplete or  | Collect user feedback | IRC, mailing-list  | Done   |
 | wrong                 |                       +--------------------+--------+
@@ -99,16 +125,14 @@ From individual user stories to improved collective user experience.
 |                       +-----------------------+--------------------+--------+
 |                       | Doc issues are bugs   | Bugtracker         | Done   |
 +-----------------------+-----------------------+--------------------+--------+
-| Learn about           | Publish feed          | sphinxcontrib.feed | ?      |
-| documentation updates |                       |                    |        |
-+-----------------------+-----------------------+--------------------+--------+
 |                       |                       |                    |        |
 +-----------------------+-----------------------+--------------------+--------+
 |                       |                       |                    |        |
 +-----------------------+-----------------------+--------------------+--------+
 |                       |                       |                    |        |
 +-----------------------+-----------------------+--------------------+--------+
-| **... tell your stories at https://github.com/writethedocs/docs/issues**    |
+| **... tell your stories and recipes on                                      |
+| https://github.com/writethedocs/docs/issues**                               |
 +-----------------------+-----------------------+--------------------+--------+
 
 -------------------------------------------------------------------------------
@@ -119,7 +143,4 @@ Credits, license
 
 Write The Docs (c) 2013, Eric Holscher, Troy Howard
 
-This poster (c) 2013 Benoît Bryon <benoit@marmelune.net>
-
-This work is licensed under `CC BY 3.0
-<http://creativecommons.org/licenses/by/3.0/>`_
+Poster by Benoît Bryon
